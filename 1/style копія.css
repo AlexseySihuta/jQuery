@@ -1,0 +1,29 @@
+
+img {
+    width: 434px;
+    height: 649px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 630px;
+    top: 210px;
+}
+
+.green {
+    width: 252px;
+    height: 480px;
+    background-color: green;
+    position: absolute;
+    left: 555px;
+    top: 34px;
+    z-index: -1;
+    /* transition: all 0.5s; */
+}
